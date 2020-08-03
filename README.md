@@ -11,6 +11,15 @@
  
  F1_score of model(raw)：0.7352062163777645
  
+ Feature Importance:
+ ![image](https://github.com/ytchen175/image/blob/master/model1i.jpg)
+ 
+ PCA:
+ ![image](https://github.com/ytchen175/image/blob/master/pca1.jpg)
+ 
+ Confusion Matrix:
+ ![image](https://github.com/ytchen175/image/blob/master/model1.jpg)
+ 
  -----------------------------------------------------
  經過SMOTE(model2) test f1-score: 0.5779512681
  
@@ -20,6 +29,15 @@
  
  F1_score of model2(SMOTE)：0.36045194082035675
  
+ Feature Importance:
+ ![image](https://github.com/ytchen175/image/blob/master/model2i.jpg)
+ 
+ PCA:
+ ![image](https://github.com/ytchen175/image/blob/master/pca2.jpg)
+ 
+ Confusion Matrix:
+ ![image](https://github.com/ytchen175/image/blob/master/model2.jpg)
+ 
  -----------------------------------------------------
  經過SMOTEENN(model3) test f1-score：0.5594162267
  
@@ -28,6 +46,15 @@
  Recall of model3 (SMOTEENN)：0.9460322797579018
  
  F1_score of model3 (SMOTEENN)：0.3417448604658225
+ 
+ Feature Importance:
+ ![image](https://github.com/ytchen175/image/blob/master/model3i.jpg)
+ 
+ PCA:
+ ![image](https://github.com/ytchen175/image/blob/master/pca2.jpg)
+ 
+ Confusion Matrix:
+ ![image](https://github.com/ytchen175/image/blob/master/pca3.jpg)
  
  -----------------------------------------------------
  經過nearmiss(model4) test f1-score：0.06626493597
