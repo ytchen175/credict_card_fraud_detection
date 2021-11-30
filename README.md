@@ -1,5 +1,10 @@
 # credict_card_fraud_detection
 
+###### Model : `Catboost`
+###### Library : `Catboost`, `Imblearn`, `Scikit-Learn`
+###### Keywords : `Machine Learning`, `Unbalanced Data`, `SMOTE`, `NearMiss`
+
+# Description
 This is an extremely unbalanced data set, with only 1.34% of abnormal transactions. \
 I built two models after feature engineering, the naive one has strong generalization, \
 and another one was processed by SMOTE + ENN, which has a very high recall that means it can detect most of the fraudulent transcations.
@@ -21,9 +26,6 @@ F1_score of model in test set : 0.7945589782
 Feature Importance: \
 ![image](https://github.com/ytchen175/image/blob/master/model1i.jpg)
 
-PCA: \
-![image](https://github.com/ytchen175/image/blob/master/pca1.jpg)
-
 Confusion Matrix: \
 ![image](https://github.com/ytchen175/image/blob/master/model1.jpg)
  
@@ -42,9 +44,6 @@ F1_score of model in test set : 0.5779512681
 
 Feature Importance: \
 ![image](https://github.com/ytchen175/image/blob/master/model2i.jpg)
-
-PCA: \
-![image](https://github.com/ytchen175/image/blob/master/pca2.jpg)
 
 Confusion Matrix: \
 ![image](https://github.com/ytchen175/image/blob/master/model2.jpg)
@@ -65,9 +64,6 @@ F1_score of model in test set : 0.5594162267
 
 Feature Importance: \
 ![image](https://github.com/ytchen175/image/blob/master/model3i.jpg)
-
-PCA: \
-![image](https://github.com/ytchen175/image/blob/master/pca3.jpg)
 
 Confusion Matrix: \
 ![image](https://github.com/ytchen175/image/blob/master/model3.jpg)
